@@ -4,7 +4,6 @@ import android.graphics.Color
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
-import android.widget.Button
 import android.widget.EditText
 import android.widget.TextView
 import androidx.cardview.widget.CardView
@@ -20,8 +19,6 @@ class bmi : AppCompatActivity() {
     lateinit var label: TextView
     lateinit var res: TextView
     lateinit var feedback: TextView
-    lateinit var maleButton: Button
-    lateinit var femaleButton: Button
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_bmi)
@@ -35,16 +32,6 @@ class bmi : AppCompatActivity() {
         res = findViewById(R.id.Result)
         label = findViewById(R.id.yourBmi)
         feedback = findViewById(R.id.Feedback)
-        maleButton = findViewById(R.id.male)
-        femaleButton = findViewById(R.id.female)
-        maleButton.setOnClickListener {
-            maleButton.setBackgroundColor(Color.parseColor("#FEA595"))
-            femaleButton.setBackgroundColor(Color.WHITE)
-        }
-        femaleButton.setOnClickListener {
-            femaleButton.setBackgroundColor(Color.parseColor("#FEA595"))
-            maleButton.setBackgroundColor(Color.WHITE)
-        }
         fab.setOnClickListener {
             cardChanger();
         }
