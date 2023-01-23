@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "439588512495",
+    "project_id": "dietplanning-acdbd",
+    "storage_bucket": "dietplanning-acdbd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:439588512495:android:54c549bb716b702087b11a",
+        "android_client_info": {
+          "package_name": "pl.edu.pwr.dietplanning"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "439588512495-7efcdosblblulvamu69980g17ha85blu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDtrKtzs3nfS547xoWbqILAnKGLR0Bx00Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "439588512495-7efcdosblblulvamu69980g17ha85blu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
